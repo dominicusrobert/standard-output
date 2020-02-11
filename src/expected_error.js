@@ -1,4 +1,4 @@
-const OutputTypes = require('./enums/response_types');
+const OutputTypes = require('./enums/output_types');
 
 class ExpectedError extends Error {
     constructor () {
