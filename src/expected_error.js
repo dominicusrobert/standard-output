@@ -1,10 +1,10 @@
-const ResponseTypes = require('./enums/response_types');
+const OutputTypes = require('./enums/response_types');
 
 class ExpectedError extends Error {
     constructor () {
         super();
 
-        this.type = ResponseTypes.EXPECTED_ERROR;
+        this.type = OutputTypes.EXPECTED_ERROR;
         this.message;
         this.detail;
     }
@@ -14,7 +14,7 @@ class ExpectedError extends Error {
         this.detail = data.detail;
     }
 
-    getControllerResponse() {
+    getStandardResult() {
         return {
             code: this.detail.http_code,
             json: {

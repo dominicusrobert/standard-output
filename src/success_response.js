@@ -1,14 +1,14 @@
-const ResponseTypes = require('./enums/response_types');
+const OutputTypes = require('./enums/response_types');
 
 class SuccessResponse {
     constructor (result) {
-        this.type = ResponseTypes.SUCCESS;
+        this.type = OutputTypes.SUCCESS;
         this.message = result.message;
         this.detail = result.detail;
         this.data = result.data;
     }
 
-    getControllerResponse() {
+    getStandardResult() {
         return {
             code: this.detail.http_code,
             json: {
