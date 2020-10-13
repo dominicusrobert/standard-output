@@ -1,6 +1,9 @@
 # Changelog
 
 ### version 1.0.2
+- Feature: add response code 404
+
+### version 1.0.2
 - Bugfixing: wrong import file name
 
 ### version 1.0.1
