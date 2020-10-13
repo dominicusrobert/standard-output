@@ -1,7 +1,11 @@
 # Changelog
 
-### version 1.0.2
-- Feature: add response code 404
+
+### version 1.0.4
+- remove unused file and update status code 404
+
+### version 1.0.3
+- add response code 404 (wrong updated file)
 
 ### version 1.0.2
 - Bugfixing: wrong import file name

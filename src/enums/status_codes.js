@@ -27,6 +27,10 @@ module.exports = {
         http_code: 403,
         message: 'User does not have the necessary permissions for the resource'
     },
+    'DATA_NOT_FOUND': {
+        http_code: 404,
+        message: 'Data not found'
+    },
     'REQUEST_TIMEOUT': {
         http_code: 408,
         message: 'The server timed out waiting for the request'
