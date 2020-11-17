@@ -3,18 +3,19 @@ const OutputTypes = require('./enums/output_types');
 class SuccessResponse {
     constructor (result) {
         this.type = OutputTypes.SUCCESS;
+
+        this.status = result.status;
         this.message = result.message;
-        this.detail = result.detail;
         this.data = result.data;
     }
 
     getStandardResult() {
         return {
-            code: this.detail.http_code,
-            json: {
+            statusCode: this.status.http_code,
+            body: JSON.stringfy({
                 message: this.message,
                 data: this.data
-            }
+            })
         }
     }
 }

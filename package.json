@@ -1,7 +1,7 @@
 {
   "name": "@dobert/standard-output",
-  "version": "1.0.4",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Standard Output For AWS Lambda",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -5,22 +5,22 @@ class ExpectedError extends Error {
         super();
 
         this.type = OutputTypes.EXPECTED_ERROR;
+        this.status;
         this.message;
-        this.detail;
     }
 
     additionalInfo(data) {
+        this.status = data.status;
         this.message = data.message;
-        this.detail = data.detail;
     }
 
     getStandardResult() {
         return {
-            code: this.detail.http_code,
-            json: {
+            statusCode: this.status.http_code,
+            body: JSON.stringify({
                 message: this.message,
                 error_description: this.detail
-            }
+            })
         }
     }
 }
