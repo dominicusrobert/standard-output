@@ -1,5 +1,7 @@
 # Changelog
 
+### version 2.1.0
+- add headers to handle cors
 
 ### version 2.0.2
 - change type error to response_type in response
