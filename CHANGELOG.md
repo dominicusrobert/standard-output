@@ -1,5 +1,10 @@
 # Changelog
 
+### version 2.0.1
+- add type error in response
+
+### version 2.0.0
+- change to support AWS Lambda
 
 ### version 1.0.4
 - remove unused file and update status code 404
