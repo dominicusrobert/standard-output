@@ -21,7 +21,7 @@ class ExpectedError extends Error {
                 "Access-Control-Alllow-Headers" : "Content-Type",
                 "Access-Control-Alllow-Origin" : "*",
                 "Access-Control-Alllow-Methods" : "OPTIONS,POST",
-            }
+            },
             body: JSON.stringify({
                 response_type: this.type,
                 message: this.message

@@ -1,5 +1,8 @@
 # Changelog
 
+### version 2.1.1
+- bugfixing, unexpected identifier
+
 ### version 2.1.0
 - add headers to handle cors
 
