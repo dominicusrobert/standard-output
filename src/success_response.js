@@ -17,7 +17,7 @@ class SuccessResponse {
                 "Access-Control-Alllow-Origin" : "*",
                 "Access-Control-Alllow-Methods" : "OPTIONS,POST",
             },
-            body: JSON.stringfy({
+            body: JSON.stringify({
                 response_type: this.type,
                 message: this.message,
                 data: this.data

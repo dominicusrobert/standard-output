@@ -1,5 +1,8 @@
 # Changelog
 
+### version 2.1.2
+- bugfixing, typo in JSON.stringify
+
 ### version 2.1.1
 - bugfixing, unexpected identifier
 
