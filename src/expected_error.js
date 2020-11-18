@@ -18,9 +18,8 @@ class ExpectedError extends Error {
         return {
             statusCode: this.status.http_code,
             body: JSON.stringify({
-                type: this.type,
-                message: this.message,
-                error_description: this.detail
+                response_type: this.type,
+                message: this.message
             })
         }
     }

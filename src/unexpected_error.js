@@ -12,7 +12,7 @@ class UnexpectedError extends Error {
         return {
             statusCode: StatusCodes.INTERNAL_SERVER_ERROR.http_code,
             body: JSON.stringify({
-                type: this.type,
+                response_type: this.type,
                 message: 'Something unexpected happened',
                 error_description: this.error
             })

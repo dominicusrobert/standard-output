@@ -13,7 +13,7 @@ class SuccessResponse {
         return {
             statusCode: this.status.http_code,
             body: JSON.stringfy({
-                type: this.type,
+                response_type: this.type,
                 message: this.message,
                 data: this.data
             })

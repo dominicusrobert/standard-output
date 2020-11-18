@@ -1,5 +1,10 @@
 # Changelog
 
+
+### version 2.0.2
+- change type error to response_type in response
+- remove error_description in expected error
+
 ### version 2.0.1
 - add type error in response
 
