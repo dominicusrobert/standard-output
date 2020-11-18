@@ -1,6 +1,6 @@
 {
   "name": "@dobert/standard-output",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Standard Output For AWS Lambda",
   "main": "index.js",
   "scripts": {
