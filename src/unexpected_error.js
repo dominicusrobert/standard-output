@@ -14,7 +14,7 @@ class UnexpectedError extends Error {
             headers: {
                 "Access-Control-Alllow-Headers" : "Content-Type",
                 "Access-Control-Alllow-Origin" : "*",
-                "Access-Control-Alllow-Methods" : "OPTIONS,POST",
+                "Access-Control-Alllow-Methods" : "*",
             },
             body: JSON.stringify({
                 response_type: this.type,

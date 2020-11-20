@@ -1,5 +1,8 @@
 # Changelog
 
+### version 2.1.3
+- update Access-Control-Alllow-Methods to all
+
 ### version 2.1.2
 - bugfixing, typo in JSON.stringify
 
