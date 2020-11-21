@@ -1,7 +1,10 @@
 # Changelog
 
+### version 2.1.4
+- fixing typo alllow to allow
+
 ### version 2.1.3
-- update Access-Control-Alllow-Methods to all
+- update Access-Control-Allow-Methods to all
 
 ### version 2.1.2
 - bugfixing, typo in JSON.stringify

@@ -12,9 +12,9 @@ class UnexpectedError extends Error {
         return {
             statusCode: StatusCodes.INTERNAL_SERVER_ERROR.http_code,
             headers: {
-                "Access-Control-Alllow-Headers" : "Content-Type",
-                "Access-Control-Alllow-Origin" : "*",
-                "Access-Control-Alllow-Methods" : "*",
+                "Access-Control-Allow-Headers" : "Content-Type",
+                "Access-Control-Allow-Origin" : "*",
+                "Access-Control-Allow-Methods" : "*",
             },
             body: JSON.stringify({
                 response_type: this.type,

@@ -13,9 +13,9 @@ class SuccessResponse {
         return {
             statusCode: this.status.http_code,
             headers: {
-                "Access-Control-Alllow-Headers" : "Content-Type",
-                "Access-Control-Alllow-Origin" : "*",
-                "Access-Control-Alllow-Methods" : "*",
+                "Access-Control-Allow-Headers" : "Content-Type",
+                "Access-Control-Allow-Origin" : "*",
+                "Access-Control-Allow-Methods" : "*",
             },
             body: JSON.stringify({
                 response_type: this.type,
